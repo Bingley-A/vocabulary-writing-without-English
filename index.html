@@ -1151,17 +1151,17 @@
         dojoPoints = 1;
         dojoText = "恭喜获得1个Dojo分";
       } else if (pct >= 70 && pct < 80) {
+        dojoPoints = 1;
+        dojoText = "恭喜获得1个Dojo分";
+      } else if (pct >= 80 && pct < 90) {
         dojoPoints = 2;
         dojoText = "恭喜获得2个Dojo分";
-      } else if (pct >= 80 && pct < 90) {
+      } else if (pct >= 90 && pct < 100) {
+        dojoPoints =2;
+        dojoText = "恭喜获得2个Dojo分";
+      } else if (pct === 100) {
         dojoPoints = 3;
         dojoText = "恭喜获得3个Dojo分";
-      } else if (pct >= 90 && pct < 100) {
-        dojoPoints = 4;
-        dojoText = "恭喜获得4个Dojo分";
-      } else if (pct === 100) {
-        dojoPoints = 5;
-        dojoText = "恭喜获得5个Dojo分";
       } else {
     showDojoInfo = false;
   }
@@ -1470,6 +1470,7 @@
   </script>
 </body>
 </html>
+
 
 
 
